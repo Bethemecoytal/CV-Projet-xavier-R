@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae de André Lemoine</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header class="header">
         <figure>
             <img src="assets/img/andré lemoine.jpeg" alt="photo jeune homme andré lemoine barbe coiffé t-shirt gris ">
             <figcaption>André Lemoine</figcaption>
         </figure>
         <h1>Développeur Wev Junior</h1>
-            <address>
+            <address class="header__adress">
             <a href="https://maps.app.goo.gl/y9Kd7fgMec5ZJAjA8">123, Rue du Nord 75001 Paris, France</a>
-            <a href="">monemail@test.com</a>
-            <a href="">0701010101</a>
+            <a href="mailto:monemail@test.com">monemail@test.com</a>
+            <a href="tel:0601010101">0701010101</a>
             </address>
     </header>
-    <main>
-        <aside> <!-- j'utilise aside car le contenue est'secondaire' au bloc principale du CV-->
+    <main class="main">
+        <aside class="main__sidebar"> <!-- j'utilise aside car le contenue est'secondaire' au bloc principale du CV-->
             <section>
                 <h2> A propos</h2>
                     <p>Je suis un développeur web passionné et créatif, doté de compétences techniques solides et d'une expérience réussie dans le milieu des start-ups. Mon objectif est de contribuer au succès d'une entreprise innovante en mettant en œuvre mes compétences en développement web et applications, en mettant l'accent sur le back-end.</p>
@@ -37,13 +37,13 @@
             <section>
                 <h2>Centres d'intérêt</h2>
                     <ul>
-                        <li>Musique</li>
+                        <li>musique</li>
                         <li>Informatique</li>
                         <li>livres</li>
                     </ul>                
             </section>
         </aside>
-        <div>
+        <div class="main__principal">
             <section>
                 <h2>Experiences professionelles</h2>
                 <section>
@@ -74,7 +74,7 @@
                     </ul>
                 </section>
             </section>
-            <section>
+            <section classe="main__pansement">
                 <h2>Diplome/Formations</h2>
                     <h3>Licence en Informatique Appliquée </h3>
                         <strong>De <time datetime="2016-07" >Juillet 2016</time> à <time datetime="2019-03">Mars 2021</time></strong><!-- j'utilise strong pour mettre en valeur un element pertinant pour la personne qui va lire le CV-->
@@ -95,11 +95,11 @@
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <a href="https://fr.linkedin.com/"><img src="assets/img/linkedin.png" alt="logo linked in "></a>
         <a href="https://twitter.com/?lang=fr"><img src="assets/img/twitter.png" alt="ancien logo twitter bleue"></a>
         <a href="https://github.com/Bethemecoytal/CV-Projet-xavier-R"><img src="assets/img/github.png" alt="logo github"></a>
-        <small>Dernier mis à jour le <time datetime="2024-01-29" ></time>29 Janvier 2024</small><!-- j'utilise small car le contenue n'a que peu d'inportance-->
+        <small>Derniere mis à jour le <time datetime="2024-01-29" ></time>29 Janvier 2024</small><!-- j'utilise small car le contenue n'a que peu d'inportance-->
 
     </footer>
 </body>
